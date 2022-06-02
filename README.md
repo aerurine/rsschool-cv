@@ -1,1 +1,1 @@
-# rsschool-cv
+https://aerurine.github.io/rsschool-cv/cv
