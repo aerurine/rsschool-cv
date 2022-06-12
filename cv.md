@@ -11,6 +11,6 @@ My history in web development began with design, as i propelled myself forward i
 * HTML&CSS
 * Git
 * Figma
-* Adobe (Photoshop, Illustrator, After Effect)
+* Adobe (Photoshop, Illustrator, After Effects)
 ## Eng:
 B2

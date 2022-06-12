@@ -4,10 +4,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./assets/сute.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
-    <h1>Hello there!</h1>
-    <p> <q>Happiness is an ideal not of the mind but of the imagination.</q> just remember it </p>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li>
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li>
+            <a href="#code" class="nav-link">Code</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#eng" class="nav-link">Eng</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <section class="section section-profile">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Alexandra Ostrovskaya</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>
+      </section>
+      <div class="section profile-pic">
+          <img src="./assets/profile-pic.png" alt="profile-picture">
+      </div>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          My history in web development began with design, as i propelled myself forward in this aspect, my interest grew in the notion of design ideas being translated into reality. The skills that i have acquired, alongside the ones i already had, will help me to achieve my goals and complete tasks, such as a greater communication with the development team.
+        </p>
+      </section>
+      <section class="subsection" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            <a href="mailto:vailett14@gmail.com" title="email" target="_blank">vailett14@gmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            <a href="https://github.com/aerurine" title="github" target="_blank">aerurine</a>
+          </li>
+          <li class="section-item contacts-item">
+            <a href="https://discord.com/invite/zUr7wWYPXE" title="discord" target="_blank">aerurine#3360</a>
+          </li>
+          <li class="section-item contacts-item">
+            <a href="https://t.me/aerurine" title="telegram" target="_blank">@aerurine</a>
+          </li>
+          <li class="section-item contacts-item">
+            <a href="https://www.behance.net/aerurine" title="behance" target="_blank">aerurine</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list skill-list">
+          <li class="section-item">
+            Web-development:
+            <span class="section-item skill-item"> HTML5, CSS3, JS</span>
+          </li>
+          <li class="section-item">
+            Version-control:
+            <span class="section-item skill-item"> GIT, GitHub</span>
+          </li>
+          <li class="section-item">
+            Graphics:
+            <span class="section-item skill-item"> Figma, Adobe (Photoshop, Illustrator, After Effects)</span>
+          </li>
+          <li class="section-item">
+            Basics of design artifact development:
+            <span class="section-item skill-item"> IA, data models, business process flowcharts, user flow, CJM, JTBD, user stories, interface prototyping</span>
+          </li>
+        </ul>
+      </section>
+      <section class="subsection" id="cources">
+        <h2 class="section-title">Cources</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Rolling Scopes School - 
+            <span class="section-item cources-item">JavaScript/Front-End. Stage0</span>
+          </li>
+          <li class="section-item">
+            Hexlet - 
+            <span class="section-item cources-item">JavaScript for beginner</span>
+          </li>
+          <li class="section-item">
+            Netology - 
+            <span class="section-item cources-item">Figma basics</span>
+          </li>
+          <li class="section-item">
+            Udemy - 
+            <span class="section-item cources-item">UI/UX Design</span>
+          </li>
+        </ul>
+      </section>
+       <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre">
+        <code>
+          function multiply(a, b) {
+          return a * b
+         }
+        </code>
+      </pre>
+      </section>
+            <section class="subsection" id="education">
+        <h2 class="section-title">Education</h2>
+        <p class="education-item">Kuban State Technological University, Krasnodar</p>
+        <span class="edication-subitem">IСTI/Construction</span>
+        <span class="edication-subitem">2018-2022</span>
+      </section>
+      <section class="section section-item" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-container">
+        <a href="https://aerurine.github.io/rsschool-cv/" title="project-source" target="_blank">CV</a>
+        </div>
+      </section>
+      <section class="subsection section-item" id="eng">
+      <h2 class="section-title">Eng</h2>
+      <div class="eng-container">
+      <a href="https://www.efset.org/cert/B55YER" title="eng-sertificate" target="_blank">B2</a>
+      </div>  
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+        <div>
+          <a href="https://github.com/aerurine" class="github nav-link" target="_blank">Aerurine</a>
+          "©2022"
+        </div>
+        <div class="rss-container">
+          <a href="https://rs.school/js/" class="rss" target="_blank"></a>
+        </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
 </html>
